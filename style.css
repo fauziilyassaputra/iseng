@@ -3,9 +3,26 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
-    color :white;
     height: 100vh;
     font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.judul h1 {
+    text-align: center;
+}
+
+.judul p {
+    font-size: 15px;
+    color: #7e7e7e7e;
+    margin-top: -20px;
 }
 #kumpulan {
     font-size: 50px;
@@ -14,6 +31,7 @@ body {
     box-shadow: 10px 10px 8px black;
     padding: 20px;
     margin-top: 20px; 
+    color: white;
 }
 #tanggal {
     font-size: 20px;
